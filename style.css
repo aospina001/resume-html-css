@@ -7,16 +7,22 @@ body {
 }
 .container {
     background-color: white;
-    margin: 10px;
+    width: 768px;
 }
 .header {
-    background-color: rgb(183, 213, 252);
+    background-color: rgb(214, 226, 241);
+    padding: 20px;
+    align-items: baseline;
 }
 .header-right {
     justify-content: flex-end;
 }
+.personal-info {
+    justify-content: right;
+}
 .body {
-
+    padding: 10px;
+    justify-content: center;
 }
 .body-left {
     width: 50%;
@@ -25,11 +31,63 @@ body {
 .banking-experience {
     flex-direction: column;
 }
+.banking-experience-heading {
+    align-items: baseline;
+}
+.education {
+    flex-direction: column;
+}
+.education-heading {
+    align-items: baseline;
+}
+.school {
+    flex-direction: row;
+}
+.school-name {
+    font-weight: bold;
+    width: 50%;
+}
+.school-location {
+    color: rgb(69, 132, 153);
+    width: 50%;
+}
+.body-right {
+    width: 50%;
+    flex-direction: column;
+}
+.skills {
+    flex-direction: column;
+}
+.skills-heading {
+    height: auto;
+}
+.skills-skills {
+    flex-wrap: wrap;
+}
+.skill {
+    background-color: navy;
+    border-radius: 5px;
+    color: white;
+    width: auto;
+    margin: 5px;
+    padding: 0px 5px 0px 5px;
+}
 ul {
     margin: 0px;
 }
-
+h2 {
+    padding-left: 5px;
+}
 
 .footer {
     background-color: rgb(183, 213, 252);
+    align-items: baseline;
+    padding: 10px;
+}
+.footer-left {
+    width: 50%;
+}
+.footer-right {
+    width: 50%;
+    justify-content: right;
 }
