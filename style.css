@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.flex {
+    display: flex;
+}
+.container {
+    background-color: white;
+    margin: 10px;
+}
+.header {
+    background-color: rgb(183, 213, 252);
+}
+.header-right {
+    justify-content: flex-end;
+}
+.body {
+
+}
+.body-left {
+    width: 50%;
+    flex-direction: column;
+}
+.banking-experience {
+    flex-direction: column;
+}
+ul {
+    margin: 0px;
+}
+
+
+.footer {
+    background-color: rgb(183, 213, 252);
+}
