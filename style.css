@@ -1,6 +1,7 @@
 body {
     background-color: black;
     font-family: 'Roboto', sans-serif;
+    justify-content: center;
 }
 .flex {
     display: flex;
@@ -14,11 +15,27 @@ body {
     padding: 20px;
     align-items: baseline;
 }
+.header-left {
+    width: 50%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.subhead {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.header-left p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .header-right {
     justify-content: flex-end;
+    align-content: center;
+    width: 50%;
 }
 .personal-info {
     justify-content: right;
+    align-items: center;
 }
 .body {
     padding: 10px;
@@ -88,7 +105,11 @@ body {
 }
 .footer-right {
     width: 50%;
-    justify-content: right;
+    justify-content: flex-end;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 ul {
     margin: 0px;
@@ -101,4 +122,11 @@ h2 {
 .skills-heading i,
 .work-heading i{
     font-size: 25px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+table {
+    text-align: right;
 }
