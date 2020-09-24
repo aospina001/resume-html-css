@@ -16,7 +16,7 @@ body {
     align-items: baseline;
 }
 .header-left {
-    width: 50%;
+    width: 60%;
     padding-top: 0%;
     padding-bottom: 0%;
 }
@@ -31,7 +31,7 @@ body {
 .header-right {
     justify-content: flex-end;
     align-content: center;
-    width: 50%;
+    width: 40%;
 }
 .personal-info {
     justify-content: right;
@@ -106,6 +106,10 @@ body {
 .footer-right {
     width: 50%;
     justify-content: flex-end;
+    align-items: center;
+}
+.footer-right i{
+    margin-left: 5px;
 }
 h1 {
     margin-top: 0px;
