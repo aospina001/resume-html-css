@@ -12,7 +12,7 @@ body {
 }
 .header {
     background-color: rgb(214, 226, 241);
-    padding: 20px;
+    padding: 15px;
     align-items: baseline;
 }
 .header-left {
@@ -38,7 +38,7 @@ body {
     align-items: center;
 }
 .body {
-    padding: 10px;
+    padding: 15px 25px;
     justify-content: center;
 }
 .body-left {
@@ -57,16 +57,37 @@ body {
 .education-heading {
     align-items: center;
 }
+.education-experience {
+    position: relative;
+}
 .school {
     flex-direction: row;
 }
+.school-info {
+    position: relative;
+}
 .school-name {
     font-weight: bold;
-    width: 50%;
+}
+.date {
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    text-align: center;
+    font-size: 10px;
 }
 .school-location {
     color: rgb(69, 132, 153);
     width: 50%;
+}
+.line {
+    position: absolute;
+    background-color: black;
+    height: 150px;
+    width: 1px;
+    top: 5px;
+    left: -15px;
+    z-index: -1;
 }
 .body-right {
     width: 50%;
@@ -89,11 +110,17 @@ body {
     margin: 5px;
     padding: 0px 5px 0px 5px;
 }
+.education-experience, .work-experience {
+    margin-left: 20px;
+}
 .work {
     flex-direction: column;
 }
 .work-heading {
     align-items: center;
+}
+.work-info {
+    position: relative;
 }
 .footer {
     background-color: rgb(183, 213, 252);
@@ -116,10 +143,18 @@ h1 {
     margin-bottom: 5px;
 }
 ul {
-    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
 }
 h2 {
     padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h3, h4, h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .banking-experience-heading i,
 .education-heading i,
@@ -133,4 +168,9 @@ a {
 }
 table {
     text-align: right;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
 }
